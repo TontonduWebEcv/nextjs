@@ -2,11 +2,7 @@ import { PurchasedProductDto } from "../../interfaces/order";
 import { OrderCreatedDto } from "../../interfaces/order";
 import { OrderToCreateDto } from "../../interfaces/order";
 
-const products: PurchasedProductDto[] = [
-  { productId: "1", quantity: 1 },
-  { productId: "2", quantity: 1 },
-  { productId: "3", quantity: 1 },
-];
+const products: PurchasedProductDto[] = [];
 
 const order: OrderCreatedDto = {
   id: "1",
