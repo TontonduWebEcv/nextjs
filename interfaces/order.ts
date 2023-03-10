@@ -6,7 +6,7 @@ export interface OrderCreatedDto {
   id: string;
 }
 
-interface PurchasedProductDto {
+export interface PurchasedProductDto {
   productId: string;
   quantity: number;
 }
@@ -18,8 +18,8 @@ export interface OrderDetailsDto {
 }
 
 enum OrderStatusDto {
-  Pending = 'Pending',
-  Delivered = 'Delivered',
+  Pending = "Pending",
+  Delivered = "Delivered",
 }
 
 export interface UpdateOrderDto {
